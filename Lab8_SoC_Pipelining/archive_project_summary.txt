@@ -1,0 +1,220 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = Lab8Pipe
+Directory = C:/Users/semen/VivadoAssignments/8Pipe/Lab8Pipe
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<constrs_1>
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/constrs_1/new/mips_fpga.xdc
+
+<sim_1>
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sim_1/new/tb_mips_top.v
+
+<sources_1>
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/CU.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/DP.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/EXE_MEM.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/HazardUnit.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/ID_EXE.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/IF_ID.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/MEM_WB.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/adder.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/alu.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/auxdec.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/buf.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/button_debouncer.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/clk_gen.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/compare.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/controlunit.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/count.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/dFF.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/dFF_en.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/datapath.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/dmem.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/done_reg.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/error_reg.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/fact_ad.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/fact_reg.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/fact_top.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/factorial.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/gpio_ad.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/gpio_top.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/hex_to_7seg.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/imem.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/led_mux.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/maindec.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mips.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mips_top.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/multiply.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mux.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mux2.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mux4.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/regfile.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/register.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/signext.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/system_ad.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/mips_fpga.v
+C:/Users/semen/VivadoAssignments/Lab8Pipe/Assignment8.srcs/sources_1/new/Lab8memfile.dat
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./Lab8Pipe.srcs/sources_1/imports/new/CU.v
+./Lab8Pipe.srcs/sources_1/imports/new/DP.v
+./Lab8Pipe.srcs/sources_1/imports/new/EXE_MEM.v
+./Lab8Pipe.srcs/sources_1/imports/new/HazardUnit.v
+./Lab8Pipe.srcs/sources_1/imports/new/ID_EXE.v
+./Lab8Pipe.srcs/sources_1/imports/new/IF_ID.v
+./Lab8Pipe.srcs/sources_1/imports/new/MEM_WB.v
+./Lab8Pipe.srcs/sources_1/imports/new/adder.v
+./Lab8Pipe.srcs/sources_1/imports/new/alu.v
+./Lab8Pipe.srcs/sources_1/imports/new/auxdec.v
+./Lab8Pipe.srcs/sources_1/imports/new/buf.v
+./Lab8Pipe.srcs/sources_1/imports/new/button_debouncer.v
+./Lab8Pipe.srcs/sources_1/imports/new/clk_gen.v
+./Lab8Pipe.srcs/sources_1/imports/new/compare.v
+./Lab8Pipe.srcs/sources_1/imports/new/controlunit.v
+./Lab8Pipe.srcs/sources_1/imports/new/count.v
+./Lab8Pipe.srcs/sources_1/imports/new/dFF.v
+./Lab8Pipe.srcs/sources_1/imports/new/dFF_en.v
+./Lab8Pipe.srcs/sources_1/imports/new/datapath.v
+./Lab8Pipe.srcs/sources_1/imports/new/dmem.v
+./Lab8Pipe.srcs/sources_1/imports/new/done_reg.v
+./Lab8Pipe.srcs/sources_1/new/dreg_en.v
+./Lab8Pipe.srcs/sources_1/imports/new/error_reg.v
+./Lab8Pipe.srcs/sources_1/imports/new/fact_ad.v
+./Lab8Pipe.srcs/sources_1/imports/new/fact_reg.v
+./Lab8Pipe.srcs/sources_1/imports/new/fact_top.v
+./Lab8Pipe.srcs/sources_1/imports/new/factorial.v
+./Lab8Pipe.srcs/sources_1/imports/new/gpio_ad.v
+./Lab8Pipe.srcs/sources_1/imports/new/gpio_top.v
+./Lab8Pipe.srcs/sources_1/imports/new/hex_to_7seg.v
+./Lab8Pipe.srcs/sources_1/imports/new/imem.v
+./Lab8Pipe.srcs/sources_1/imports/new/led_mux.v
+./Lab8Pipe.srcs/sources_1/imports/new/maindec.v
+./Lab8Pipe.srcs/sources_1/imports/new/mips.v
+./Lab8Pipe.srcs/sources_1/imports/new/mips_top.v
+./Lab8Pipe.srcs/sources_1/imports/new/multiply.v
+./Lab8Pipe.srcs/sources_1/imports/new/mux.v
+./Lab8Pipe.srcs/sources_1/imports/new/mux2.v
+./Lab8Pipe.srcs/sources_1/imports/new/mux4.v
+./Lab8Pipe.srcs/sources_1/imports/new/regfile.v
+./Lab8Pipe.srcs/sources_1/imports/new/register.v
+./Lab8Pipe.srcs/sources_1/imports/new/signext.v
+./Lab8Pipe.srcs/sources_1/imports/new/system_ad.v
+./Lab8Pipe.srcs/sources_1/imports/new/mips_fpga.v
+./Lab8Pipe.srcs/sources_1/imports/new/Lab8memfile.dat
+
+<constrs_1>
+./Lab8Pipe.srcs/constrs_1/imports/new/mips_fpga.xdc
+
+<sim_1>
+./Lab8Pipe.srcs/sim_1/imports/new/tb_mips_top.v
+
+<utils_1>
+None
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = C:/Users/semen/AppData/Roaming/Xilinx/Vivado/vivado.jou
+Archived Location = ./Lab8Pipe/vivado.jou
+
+Source File = C:/Users/semen/AppData/Roaming/Xilinx/Vivado/vivado.log
+Archived Location = ./Lab8Pipe/vivado.log
+

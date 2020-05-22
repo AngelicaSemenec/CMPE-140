@@ -1,0 +1,100 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon Dec  9 13:47:35 2019
+| Host         : LAPTOP-TRB6KBSS running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file mips_fpga_control_sets_placed.rpt
+| Design       : mips_fpga
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    22 |
+|    Minimum number of control sets                        |    22 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    74 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    22 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    14 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             204 |           92 |
+| No           | No                    | Yes                    |               6 |            3 |
+| No           | Yes                   | No                     |             125 |           46 |
+| Yes          | No                    | No                     |             137 |           46 |
+| Yes          | No                    | Yes                    |              41 |            8 |
+| Yes          | Yes                   | No                     |              53 |           15 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|                        Clock Signal                        |                   Enable Signal                   |                          Set/Reset Signal                          | Slice Load Count | Bel Load Count |
++------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|  mips_top/fact_top/fact_reg/FSM_onehot_state_reg[0]        |                                                   |                                                                    |                1 |              1 |
+|  mips_top/fact_top/factorial/control_unit/sel1_reg_i_1_n_1 |                                                   |                                                                    |                1 |              1 |
+|  mips_top/fact_top/factorial/control_unit/next_state       |                                                   |                                                                    |                1 |              3 |
+|  mips_top/fact_top/factorial/control_unit/en_reg_i_2_n_1   |                                                   |                                                                    |                1 |              4 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/EXE_MEM/E[0]                     | rst_IBUF                                                           |                1 |              4 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/ID_EXE/E[0]                      |                                                                    |                2 |              5 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/ID_EXE/E[0]                      | rst_IBUF                                                           |                2 |              5 |
+|  clk_pb_BUFG                                               |                                                   | rst_IBUF                                                           |                3 |              6 |
+|  clk_gen/clk_5KHz_reg_0                                    |                                                   |                                                                    |                6 |             19 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/ID_EXE/E[0]                      | mips_top/mips/dp/IF_ID/flushID                                     |                4 |             22 |
+|  clk_pb_BUFG                                               | mips_top/fact_top/factorial/control_unit/load_reg | mips_top/fact_top/factorial/control_unit/FSM_onehot_state_reg[2]_0 |               11 |             31 |
+|  n_0_623_BUFG                                              |                                                   |                                                                    |               23 |             32 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/EXE_MEM/we_mem                   |                                                                    |                8 |             32 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/EXE_MEM/alu_outM_reg[2]_0[0]     |                                                                    |               12 |             32 |
+|  clk_pb_BUFG                                               | mips_top/fact_top/factorial/control_unit/E[0]     | rst_IBUF                                                           |                5 |             32 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/EXE_MEM/alu_outM_reg[2]_1[0]     |                                                                    |               11 |             33 |
+|  clk_pb_BUFG                                               | mips_top/fact_top/factorial/control_unit/load_reg |                                                                    |                9 |             33 |
+|  clk_IBUF_BUFG                                             |                                                   | rst_IBUF                                                           |                9 |             33 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/ID_EXE/csE_reg[5]_0[0]           |                                                                    |               12 |             34 |
+|  clk_pb_BUFG                                               |                                                   | mips_top/mips/dp/ID_EXE/flushE                                     |               37 |             92 |
+|  clk_pb_BUFG                                               | mips_top/mips/dp/MEM_WB/csW_reg[0]_0[0]           |                                                                    |               12 |             96 |
+|  clk_pb_BUFG                                               |                                                   |                                                                    |               59 |            144 |
++------------------------------------------------------------+---------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+
+

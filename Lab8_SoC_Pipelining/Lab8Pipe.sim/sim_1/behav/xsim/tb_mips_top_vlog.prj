@@ -1,0 +1,48 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/CU.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/DP.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/EXE_MEM.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/HazardUnit.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/ID_EXE.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/IF_ID.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/MEM_WB.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/adder.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/alu.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/auxdec.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/buf.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/compare.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/controlunit.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/count.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/dFF.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/dFF_en.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/datapath.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/dmem.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/done_reg.v" \
+"../../../../Lab8Pipe.srcs/sources_1/new/dreg_en.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/error_reg.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/fact_ad.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/fact_reg.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/fact_top.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/factorial.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/gpio_ad.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/gpio_top.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/imem.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/maindec.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/mips.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/mips_top.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/multiply.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/mux.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/mux2.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/mux4.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/regfile.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/register.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/signext.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sources_1/new/system_ad.v" \
+"../../../../../../Lab8Pipe/Assignment8.srcs/sim_1/new/tb_mips_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
